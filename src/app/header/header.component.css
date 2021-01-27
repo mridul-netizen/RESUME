@@ -8,6 +8,19 @@ a {
   text-decoration: none;
   color: white;
 }
+
+ul {
+  display: flex;
+}
+
 .spacer {
   flex: 1 1 auto;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100% !important;
 }

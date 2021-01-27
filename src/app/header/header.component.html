@@ -1,12 +1,22 @@
-<mat-toolbar color="primary" class="mat-elevation-z8">
-<!--  MRidul icon instead of text-->
-  <span><mat-icon>eco</mat-icon>Mridul</span>
+<mat-toolbar color="primary" class="mat-elevation-z8 header">
+<!--  Mridul icon instead of text-->
+  <span><mat-icon>eco</mat-icon><a routerLink="">Mridul</a></span>
 
-  <div class="spacer"></div>
+  <span class="spacer"></span>
 
-  <a mat-button routerLink="home">Home</a>
-  <a mat-button routerLink="aboutme">About Me</a>
-  <a mat-button routerLink="projects">Projects</a>
-  <a mat-raised-button color="accent">Resume</a>
+  <ul>
+    <li>
+      <a mat-button routerLink="/aboutMe" routerLinkActive="mat-accent">About Me</a>
+    </li>
+    <li>
+      <a mat-button routerLink="/projects" routerLinkActive="mat-accent">Projects</a>
+    </li>
+    <li>
+      <a mat-button routerLink="/blog" routerLinkActive="mat-accent">Blogs</a>
+    </li>
+    <li>
+      <a mat-raised-button color="accent" href="app/resume.pdf" download="Mridul_Resume.pdf">Resume</a>
+    </li>
+  </ul>
 
 </mat-toolbar>
