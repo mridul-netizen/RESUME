@@ -1,4 +1,4 @@
-#home {
+/* #home {
   background-color: black;
 }
 #landing-intro {
@@ -50,4 +50,7 @@
 
 .glitch-wrapper > .glitch {
   background: transparent !important;
+} */
+body {
+  overflow-y: scroll;
 }

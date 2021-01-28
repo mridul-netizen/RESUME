@@ -2,7 +2,6 @@
   "name": "untitled1",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
@@ -16,6 +15,7 @@
     "@angular/common": "~11.0.6",
     "@angular/compiler": "~11.0.6",
     "@angular/core": "~11.0.6",
+    "@angular/flex-layout": "^11.0.0-beta.33",
     "@angular/forms": "~11.0.6",
     "@angular/material": "~11.0.2-sha-c6231e19b",
     "@angular/platform-browser": "~11.0.6",
@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1100.6",
-    "@angular/cli": "~11.0.6",
+    "@angular/cli": "^11.0.7",
     "@angular/compiler-cli": "~11.0.6",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
