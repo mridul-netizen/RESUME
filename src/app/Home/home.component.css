@@ -1,56 +1,38 @@
-/* #home {
-  background-color: black;
+#home {
+  width: auto;
+  height: auto;
+  padding: 10%;
 }
-#landing-intro {
-  position: absolute;
-  top: 50vh;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #000000;
-  font-size: 3rem;
-  font-weight: 500;
-  font-family: 'Futura', monospace;
-  text-transform: uppercase;
+#content {
+  display: table;
+  width: auto;
+  height: auto;
+  font-weight: 800;
+  margin: auto;
+  padding: 10%;
+  background-color: blue;
 }
-#sub-intro {
-  font-size: 20px;
-  font-weight: 100;
-  opacity: 0.75;
+#first {
+  text-align: center;
+  display: table-row inline;
+  padding: 5%;
+  font-size: 150%;
+  background-color: yellow;
+  margin: 0;
 }
-#my-name {
-  font-size: 6rem;
-  font-weight: 900;
+#second {
+  text-align: center;
+  display: table-row inline;
+  padding: 5%;
+  font-size: 150%;
+  background-color: red;
+  margin: 0;
 }
-@media (max-width: 768px) {
-  #my-name {
-    font-size: 4.5rem;
-    font-weight: 900;
-  }
-  #landing-intro {
-    position: absolute;
-    top: 50vh;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #000000;
-    font-size: 2.2rem;
-    font-weight: 400;
-    font-family: 'Futura', monospace;
-    text-transform: uppercase;
-  }
-  #sub-intro {
-    font-size: 18px;
-    font-weight: 100;
-    opacity: 0.75;
-    width: 350px !important;
-  }
-  .glitch-wrapper > .glitch {
-    background: transparent !important;
-  }
-}
-
-.glitch-wrapper > .glitch {
-  background: transparent !important;
-} */
-body {
-  overflow-y: scroll;
+#third {
+  text-align: center;
+  display: table-row inline;
+  padding: 5%;
+  font-size: 150%;
+  background-color: yellow;
+  margin: 0;
 }
